@@ -12,10 +12,10 @@
 @protocol StateProtocol <NSObject>
 @optional
 @property (nonatomic,strong,readonly) NSString *name;
+@property (nonatomic,strong,readonly) NSString *_id;
 @end
 
 @class Location;
 @interface State : RLMProxy <StateProtocol>
-@property (nonatomic,strong,readonly) NSString *_id;
 @property (nonatomic,strong,readonly) NSArray<Location*>* locations;
 @end

@@ -19,7 +19,7 @@
 		635401EC1EA8D1E90082F0C4 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 635401EB1EA8D1E90082F0C4 /* Location.m */; };
 		635401EF1EA8D20F0082F0C4 /* State.m in Sources */ = {isa = PBXBuildFile; fileRef = 635401EE1EA8D20F0082F0C4 /* State.m */; };
 		635401F31EA8D2F50082F0C4 /* StatesProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 635401F21EA8D2F50082F0C4 /* StatesProvider.m */; };
-		635401F61EA8DA690082F0C4 /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 635401F51EA8DA690082F0C4 /* default.realm */; };
+		63A076501EAB2E4800A82E52 /* default.realm in Resources */ = {isa = PBXBuildFile; fileRef = 63A0764F1EAB2E4800A82E52 /* default.realm */; };
 		FAC0ADCC4EC7AC8ECF234F12 /* libPods-SampleProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0C768C36AD9A940CCD13F73 /* libPods-SampleProject.a */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +48,7 @@
 		635401EE1EA8D20F0082F0C4 /* State.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = State.m; sourceTree = "<group>"; };
 		635401F11EA8D2F50082F0C4 /* StatesProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatesProvider.h; sourceTree = "<group>"; };
 		635401F21EA8D2F50082F0C4 /* StatesProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatesProvider.m; sourceTree = "<group>"; };
-		635401F51EA8DA690082F0C4 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
+		63A0764F1EAB2E4800A82E52 /* default.realm */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.realm; sourceTree = "<group>"; };
 		C0C768C36AD9A940CCD13F73 /* libPods-SampleProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SampleProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,7 @@
 		635401F41EA8DA690082F0C4 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				635401F51EA8DA690082F0C4 /* default.realm */,
+				63A0764F1EAB2E4800A82E52 /* default.realm */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -223,7 +223,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				635401D91EA8BDE50082F0C4 /* LaunchScreen.storyboard in Resources */,
-				635401F61EA8DA690082F0C4 /* default.realm in Resources */,
+				63A076501EAB2E4800A82E52 /* default.realm in Resources */,
 				635401D61EA8BDE50082F0C4 /* Assets.xcassets in Resources */,
 				635401D41EA8BDE50082F0C4 /* Main.storyboard in Resources */,
 			);
